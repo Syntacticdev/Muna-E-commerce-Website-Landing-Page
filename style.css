@@ -207,10 +207,10 @@ header {
 }
 
 .product-item {
-    height: 300px;
+    height: 310px;
     overflow: hidden;
     display: grid;
-    grid-template-rows: 80% 20%;
+    grid-template-rows: 75% 25%;
 }
 
 .product-details {

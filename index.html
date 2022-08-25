@@ -124,7 +124,7 @@
                 <h2 class="footer-section-label">Customers Service</h2>
                 <div class="customers-service-list">
                     <a href="/">Shipping & Returns</a>
-                    <a href="/">My Accouny</a>
+                    <a href="/">My Account</a>
                     <a href="/">Product Warranty</a>
                 </div>
             </div>
@@ -169,33 +169,8 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./script.js"></script>
 
-    <script>
-        let screen_size = window.innerWidth
-        let views = 3
-
-        let swiper = new Swiper(".mySwiper", {
-            slidesPerView: views,
-            spaceBetween: 0,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-
-
-        // window.addEventListener("load", displayBox)
-        window.addEventListener("resize", () => {
-            if (screen_size <= 768) {
-                return views = 1
-            }
-        })
-
-        // scro
-
-    </script>
 </body>
 
 </html>
