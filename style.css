@@ -406,6 +406,10 @@ footer {
         gap: 20px;
     }
 
+    .footer-sections-wrapper>div {
+        width: 100%;
+    }
+
     .footer-subfoot {
         all: unset;
         display: flex;
